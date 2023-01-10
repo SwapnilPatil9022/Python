@@ -1,0 +1,4 @@
+            --------- Automation using python -----------
+    Automation script which accept file name. Extract all URL's from that file and connect to that URL's.
+    
+    This automation script is used to phach the .txt file into the URL's and open the browser and search the data from that URLs.
