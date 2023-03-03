@@ -1,4 +1,100 @@
 
+# import librarys
+import pandas as pd
+from sklearn import tree
+
+# Load the dataset
+# Rough 1
+# Smooth 0
+
+# Tennis 1
+# Cricet 2
+
+Features = [[35,1],[47,1],[90,0],[48,1],[90,0],[35,1],[92,0],[35,1],[35,1],[35,1],[96,0],[43,1],[110,0],[35,1],[95,0]]
+
+Labels = [1,1,2,1,2,1,2,1,1,1,2,1,2,1,2]
+
+# Deside the MAchine learnig algoritham
+obj = tree.DecisionTreeClassifier()
+
+# Perform the trenning model
+obj = obj.fit(Features,Labels)
+
+# perform the testing 
+print(obj.predict([[97,0]])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+
+from sys import*
+import os
+import hashlib
+import time
+
+def DeleteFiles(dict):
+	results = list(filter(lambda x : len(x) > 1, dict.values()))
+
+	icnt = 0;
+
+	if len(results) > 0:
+		for result in results:
+			for subresult in result:
+				icnt += 1
+				if icnt >= 2:
+					os.remove(subresult)
+				icnt = 0
+			else:
+				print("No duplicate files found.")
+
+def hashfile(path, blocksize = 1024):
+	afile = open(path, 'rb')
+	hasher = hashlib.md5()
+	buf = afile.read(blocksize)
+
+	while len(buf)
+
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 import psutil
 
 def ProcessDisplay():
@@ -25,7 +121,7 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
+"""
 
 
 
