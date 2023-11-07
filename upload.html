@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Image Upload and Download</title>
+</head>
+<body>
+    <h2>Upload an Image</h2>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+
+    <h2>Download Uploaded Image</h2>
+    <a href="/download/sample.jpg" download>Download Image</a>
+</body>
+</html>
